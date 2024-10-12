@@ -1,0 +1,10 @@
+h1{
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #666;
+}
+/* h2{
+    color: red;
+} */
