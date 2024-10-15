@@ -1,0 +1,62 @@
+/* ol li{
+    list-style: none;
+    list-style-type: circle;
+    list-style-type: decimal-leading-zero;
+    list-style-type: armenian;
+}
+body{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-family: cursive;
+}
+ul li{
+    display: inline-block;
+    margin: 5px 0px 0px 15px;
+}
+nav{
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    width: 1500px;
+    width: 100%;
+    height: 40px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
+    width: 300px;
+    height: 440px;
+    border: 2px solid #666;
+    background: #ccc;
+    margin: 8px 8px;
+}
+
+div img {
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    /* color: #666; */
+    font-size: 20px;
+    margin: 10px 0px 10px 10px;
+}
+p{
+    text-align: justify;
+}
+button{
+    margin: 10px 0px;
+    padding: 7px;
+    border-radius: 10px 0px 10px 0px;
+    background: #000;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+}

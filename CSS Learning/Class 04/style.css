@@ -1,0 +1,60 @@
+/* div p:first-child {
+    color: red;
+}
+div p:last-child{
+    color: green;
+}
+
+div p:nth-child(3){
+    color: chocolate;
+}
+
+div p:nth-child(even){
+    color: red;
+}
+
+div p:nth-child(odd){
+    color: green;
+}
+     
+     ::selection{
+        background: purple;
+        color: violet;
+     }
+
+     
+
+     div p::first-letter{
+        color: darkblue;
+        font-size: 25px;
+     }
+        
+        
+        div p::before{
+            content: 'Wahaj';
+        }
+
+        div p::after{
+            content: 'boii';
+        }
+            
+
+            div p::first-line{
+                color: aqua;
+            }
+           
+            a:visited{
+                color: black;
+            }
+           
+            a:active{
+                color: green;
+            }
+            a{
+                color: red;
+            
+            }
+            a:hover{
+                color: yellow;
+            }
+                */
