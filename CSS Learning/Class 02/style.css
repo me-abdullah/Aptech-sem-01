@@ -1,0 +1,18 @@
+#main, #unq{
+    color: blue;
+    text-align: center;
+}
+.same{
+    color: lightskyblue;
+}
+
+#unq{
+    color: maroon;
+}
+.same-02{
+    color: chocolate;
+}
+.bg{
+    background: #666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
