@@ -1,0 +1,63 @@
+:root{
+    --bgcolor : green;
+    --bgcolor-500 : lightgreen;
+    --fsize : 20px;
+    --div-size: 200px;
+}
+
+body {
+    background-image: url('p1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-01 {
+    /* opacity: 0.7; */
+    width: 200px;
+    height: 200px;
+    /* background: red; */
+    /* background-image: linear-gradient(to top, red, yellow, orange,purple,pink,blue); */
+    /* background-image: radial-gradient( red, yellow, orange,purple,pink,blue); */
+    /* background-image: conic-gradient( red, yellow, orange,purple,pink,blue); */
+    background: red;
+    /* box-shadow: 10px 10px 20px 40px #00FF00; x-axis,y-axis,blur,expand */
+    /* box-shadow: inset 10px 10px 20px  #00FF00; */
+    box-shadow: 10px 10px 20px  #00FF00;
+    /* box-shadow: -10px -10px 20px  #00FF00; */
+
+}
+
+h1{
+    color: #0000FF;
+    /* text-shadow: 5px 5px 10px red; */
+    /* text-shadow:  5px 5px 10px 20px red; */
+
+}
+
+.div-02{
+    background: #CCC;
+    width: 50%;
+    transition: 2s;
+}
+
+.div-02:hover{
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+
+.div-03{
+
+   
+    width: var(--div-size);
+    height: var(--div-size);
+    background: var(--bgcolor);
+  
+}
+
+.div-04{
+    width: var(--div-size);
+    height: var(--div-size);
+    background: var(--bgcolor-500);
+}
