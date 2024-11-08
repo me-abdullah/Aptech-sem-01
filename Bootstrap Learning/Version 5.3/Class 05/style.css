@@ -1,0 +1,28 @@
+body{
+    font-family: "Poppins", serif;
+}
+
+
+.navbar-brand img{
+    width: 60px;
+}
+
+.carousel-inner img{
+    min-height: 300px !important;
+    max-height: 600px;
+}
+.card img:hover{
+transform: scale(120%);
+}
+.card img{
+transition: 1s;
+}
+.card{
+    display: inline-block;
+    margin-left: 20px;
+    overflow: hidden;
+}
+::selection{
+    background: black;
+    color: #fff;
+}
